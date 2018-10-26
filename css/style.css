@@ -1,0 +1,136 @@
+/* =======================================================
+*
+* 2018/10/26
+*	Kohimoto Edit
+* https://kohimoto.com
+*
+* ======================================================= */
+@charset "UTF-8";
+/* =======================================================
+* reset
+* ======================================================= */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  vertical-align:baseline;
+  background:transparent;
+  box-sizing:border-box;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+  box-sizing:border-box;
+}
+ul{
+  list-style:none;
+}
+a {
+  margin:0;
+  padding:0;
+  color: #162034;
+  text-decoration:none;
+  box-sizing:border-box;
+}
+a:focus, *:focus {
+  outline:none;
+}
+a:hover {
+  opacity: 0.9;
+}
+input, select {
+  vertical-align:middle;
+}
+/* =======================================================
+* original
+* ======================================================= */
+.center_center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.container{
+  max-width: 1260px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 30px;
+}
+.oh {
+  overflow: hidden;
+}
+.ab {
+  position: absolute;
+}
+.sp {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .sp{
+    display: block;
+  }
+  .pc {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+}
+/* =======================================================
+* font
+* ======================================================= */
+
+/* =======================================================
+* common
+* ======================================================= */
+html{
+  font-size: 16px;
+}
+body {
+  font-family: 'Cinzel',"ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ", "Meiryo",Roboto,"Helvetica Neue",Arial,sans-serif,;
+  line-height: 1.8;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400;
+}
+h1 {
+}
+h2 {
+}
+h3 {
+}
+@media screen and (max-width: 960px) {
+  h2 {
+  }
+  h3 {
+  }
+}
+/* =======================================================
+* header
+* ======================================================= */
+.header {
+}
+/* =======================================================
+* top
+* ======================================================= */
+.main .top {
+}
+.main .top .container{
+}
